@@ -1,6 +1,12 @@
 # poc-dbzium
 This is a repository to document a pc using DBZium to monitor database changes and send events via Kafka
 
+## Useful Tools
+
+- https://www.portainer.io/
+- https://www.conduktor.io/
+- https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16
+
 ## Support Links
 
 - https://docs.confluent.io/kafka-connectors/debezium-sqlserver-source/current/overview.html#set-up-sql-server-using-docker-optional
