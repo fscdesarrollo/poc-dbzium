@@ -6,6 +6,8 @@ This is a repository to document a pc using DBZium to monitor database changes a
 - https://www.portainer.io/
 - https://www.conduktor.io/
 - https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16
+- https://www.postman.com/
+- https://www.mysql.com/products/workbench/
 
 ## Support Links
 
@@ -119,4 +121,10 @@ POST http://localhost:8083/connectors
     }
 }
 ```
+
+### Steps
+
+- Create all the necessary containers described above
+- Run database script to create test base, enable CDC for database and specify tables to be monitored. To validate if it is configured correctly, run the query: List of Tables with CDC Enable
+- Create the connector (SQL Server: inventory-connector-sql-server / MySql: inventory-connector-mysql)
 
