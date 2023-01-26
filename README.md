@@ -1,6 +1,12 @@
 # poc-dbzium
 This is a repository to document a pc using DBZium to monitor database changes and send events via Kafka
 
+## Support Links
+
+- https://docs.confluent.io/kafka-connectors/debezium-sqlserver-source/current/overview.html#set-up-sql-server-using-docker-optional
+- https://debezium.io/documentation/reference/connectors/sqlserver.html#setting-up-sqlserver
+- https://www.paradigmadigital.com/dev/primeros-pasos-con-debezium/
+
 ## Docker Images
 #### ZOOKEEPER
 `docker run -d --rm --name zookeeper -p 2181:2181 -p 2888:2888 -p 3888:3888 debezium/zookeeper:1.5`
@@ -107,3 +113,4 @@ POST http://localhost:8083/connectors
     }
 }
 ```
+
