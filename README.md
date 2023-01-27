@@ -14,6 +14,7 @@ This is a repository to document a pc using DBZium to monitor database changes a
 - https://docs.confluent.io/kafka-connectors/debezium-sqlserver-source/current/overview.html#set-up-sql-server-using-docker-optional
 - https://debezium.io/documentation/reference/connectors/sqlserver.html#setting-up-sqlserver
 - https://www.paradigmadigital.com/dev/primeros-pasos-con-debezium/
+- https://silverback-messaging.net/index.html
 
 ## Docker Images
 #### ZOOKEEPER
